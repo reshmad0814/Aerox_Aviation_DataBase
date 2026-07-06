@@ -1,21 +1,10 @@
-# Aerox_Aviation_DataBase
-
-Aerox-RDBMS/
-│── images/
-│   ├── logo.png
-│   ├── business_scenario.png
-│── SQL Scripts/
-│── README.md
-
 <div align="center">
 
-<img src="images/logo.png" width="220">
+<img src="https://raw.githubusercontent.com/reshmad0814/Aerox_Aviation_DataBase/main/Aerox_logo.png" width="220"/>
 
-# ✈️ Aerox Airline Database Management System (RDBMS)
+# ✈️ Aerox Aviation Database 
 
-### SQL | MySQL | Relational Database Design
 
-Design and implementation of a **Relational Database Management System (RDBMS)** for an airline company to efficiently manage passengers, bookings, flights, routes, airports, crew operations, services, transactions, revenue, and customer reviews.
 
 </div>
 
@@ -23,28 +12,27 @@ Design and implementation of a **Relational Database Management System (RDBMS)**
 
 # 📌 Project Overview
 
-Aerox Aviation is a modern airline company focused on delivering safe, efficient, and customer-centric air travel services. As airline operations continue to grow, managing large volumes of operational data becomes increasingly complex.
+Aerox Aviation is a modern airline company focused on delivering **safe, efficient, and customer-centric air travel services**. As airline operations continue to grow, managing large volumes of operational data becomes increasingly complex.
 
-This project designs a normalized **Relational Database Management System (RDBMS)** using **MySQL** to centralize airline operations, improve data consistency, and support operational as well as business analytics.
+This project designs a **normalized Relational Database Management System (RDBMS)** using **MySQL** to centralize airline operations, improve data consistency, and support operational as well as business analytics.
 
-The database manages all major airline functions including passenger management, bookings, flight scheduling, airport operations, crew allocation, maintenance services, revenue tracking, and customer feedback.
+The database manages major airline functions including:
 
----
-
-# 🎯 Project Objectives
-
-- Design a normalized relational database for airline operations.
-- Manage passenger and booking information efficiently.
-- Track flights, routes, airports, and crew assignments.
-- Monitor airline revenue and financial transactions.
-- Support operational reporting and trend analysis.
-- Improve decision-making using structured data.
+- Passenger Management
+- Flight Bookings
+- Flight Scheduling
+- Route Management
+- Airport Operations
+- Crew Allocation
+- Maintenance Services
+- Revenue Tracking
+- Customer Feedback
 
 ---
 
 # 🏢 Business Scenario
 
-**Aerox Aviation** operates multiple domestic and international flights every day. With increasing passenger demand and expanding flight operations, the airline requires a centralized database to efficiently manage business operations.
+**Aerox Aviation** operates multiple domestic and international flights daily. With increasing passenger demand and expanding operations, the airline requires a centralized database to efficiently manage its business processes.
 
 The organization needs a reliable system capable of storing and maintaining information related to:
 
@@ -57,7 +45,18 @@ The organization needs a reliable system capable of storing and maintaining info
 - Payment transactions and revenue management
 - Customer reviews and service quality
 
-The proposed RDBMS provides a structured solution that improves operational efficiency, enhances customer experience, and supports data-driven business decisions.
+The proposed RDBMS improves operational efficiency, enhances customer experience, and supports data-driven decision-making.
+
+---
+
+# 🎯 Project Objectives
+
+- Design a normalized relational database for airline operations.
+- Manage passenger and booking information efficiently.
+- Track flights, routes, airports, and crew assignments.
+- Monitor airline revenue and payment transactions.
+- Support operational reporting and trend analysis.
+- Improve business decision-making using structured data.
 
 ---
 
@@ -65,31 +64,33 @@ The proposed RDBMS provides a structured solution that improves operational effi
 
 The airline currently faces several operational challenges:
 
-- Difficulty managing large volumes of passenger and booking data.
-- Manual tracking of flight schedules and route information.
-- Limited visibility into aircraft maintenance status.
-- Inefficient crew assignment and scheduling.
-- Challenges in monitoring payment transactions and revenue.
+- Managing large volumes of passenger and booking data.
+- Manual tracking of flight schedules and routes.
+- Limited visibility into aircraft maintenance.
+- Inefficient crew scheduling.
+- Difficulty monitoring revenue and transactions.
 - Lack of centralized customer feedback management.
-- Difficulty analyzing booking trends and operational performance.
-- Data redundancy and inconsistency across different systems.
-- Delays in generating business reports and operational insights.
-- Limited support for strategic decision-making due to fragmented data.
+- Limited operational performance reporting.
+- Data redundancy and inconsistency.
+- Delays in generating business reports.
+- Fragmented information affecting strategic decisions.
 
 ---
 
 # 🗄️ Database Modules
 
-- Passenger Management
-- Booking Management
-- Route Management
-- Flight Management
-- Airport Management
-- Crew Management
-- Service Management
-- Transaction Management
-- Revenue Management
-- Customer Reviews
+| Module | Description |
+|---------|-------------|
+| 👤 Passengers | Passenger information |
+| 🎫 Bookings | Booking records |
+| 🛫 Routes | Flight routes |
+| ✈️ AirFlights | Aircraft details |
+| 🏢 Airports | Airport information |
+| 👨‍✈️ Crew Info | Crew management |
+| 🛎️ Services | Airline services |
+| 💳 Transactions | Payment details |
+| 💰 Revenue | Revenue tracking |
+| ⭐ Reviews | Passenger & Crew feedback |
 
 ---
 
@@ -97,32 +98,40 @@ The airline currently faces several operational challenges:
 
 - MySQL
 - SQL
+- MySQL Workbench
 - Relational Database Design
 - ER Modeling
-- Normalization
-- MySQL Workbench
+- Database Normalization
 
 ---
 
 # 📊 Project Outcome
 
-The Aerox Database System provides a centralized solution for airline operations by improving data integrity, minimizing redundancy, and streamlining business processes. It enables efficient management of passengers, bookings, flights, revenue, and customer feedback while supporting business analytics and operational decision-making.
+The Aerox Database System provides a centralized solution for airline operations by:
+
+- Improving data integrity
+- Reducing data redundancy
+- Streamlining airline operations
+- Managing passengers and bookings efficiently
+- Tracking flights and crew assignments
+- Monitoring revenue and transactions
+- Supporting operational analytics and business reporting
 
 ---
 
-## ⭐ Skills Demonstrated
+# ⭐ Skills Demonstrated
 
 - SQL
 - MySQL
 - Database Design
 - Relational Database Management System (RDBMS)
 - ER Diagram
-- Data Modeling
+- Database Normalization
 - Primary & Foreign Keys
-- Normalization
 - Constraints
+- Data Modeling
 - Business Process Modeling
 
 ---
 
-⭐ If you found this project useful, don't forget to **Star** this repository!
+
