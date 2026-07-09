@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
 
 <img src="https://raw.githubusercontent.com/reshmad0814/Aerox_Aviation_DataBase/main/Aerox_logo.png" width="220"/>
 
